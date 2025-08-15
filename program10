@@ -1,0 +1,27 @@
+//Program10
+package Task;
+
+import java.util.Scanner;
+
+public class task10 {
+	
+	public static void main(String[] args)
+	{
+		//Program to count no.of digits in an integer
+		
+		System.out.println("Enter the number");
+		Scanner input=new Scanner(System.in);
+		int n = input.nextInt();
+		int c=0;
+		while(n>0)
+		{
+			n=n/10;
+			c++;
+		}
+		
+		System.out.println("Total number of digits in the provided Integer is" + ":" +c);
+		
+		
+	}
+
+}
