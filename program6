@@ -1,0 +1,28 @@
+//program6
+package Task;
+
+import java.util.Scanner;
+
+public class task6 {
+	
+	//Factorial of given number
+	
+	public static void main(String[] args)
+	{
+		System.out.println("Enter a number to get the factorial of it");
+		Scanner input = new Scanner (System.in);
+		int n = input.nextInt();
+		int temp=1;
+		
+		for(int i=1; i<=n; i++)
+		{
+			
+			temp = temp*i;
+			
+		}
+			
+			System.out.println("the factorial is" + " " + temp);
+				
+	}
+
+}
