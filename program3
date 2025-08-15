@@ -1,0 +1,18 @@
+//Progam3
+package Task;
+
+public class task3 {
+	
+	//program to print char from A to Z
+	
+	public static void main(String[] args)
+	{
+		for(char ch= 'A'; ch<= 'z'; ch++)
+		{
+			System.out.print(ch + " ");
+		}
+		
+		System.out.println();
+	}
+
+}
