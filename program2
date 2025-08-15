@@ -1,0 +1,25 @@
+//Program 2
+package Task;
+
+import java.util.Scanner;
+
+public class task2 {
+//find if it is an even number
+	public static void main (String[] args)
+	{
+		System.out.println("Enter any number");
+		Scanner input = new Scanner(System.in);
+		int n =input.nextInt();
+		
+		if(n%2==0)
+		{
+			System.out.println("This is an even number");
+		}
+		else
+		{
+			System.out.println("This is not an even number");
+		}
+				
+			
+	}
+}
